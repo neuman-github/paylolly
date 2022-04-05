@@ -146,13 +146,12 @@ export default function App (props) {
               })}
           </tbody>
         </Table>
-        <CgAddR
+        new task<CgAddR
           onClick={() => {
             setAddShow(true)
           }}
         />
-        {addShow && <ModalTask prop='add' res={resFromChildAdd} />}
-      </Container>
+        {addShow && <ModalTask prop='add' res={resFromChildAdd} /> }</Container>
     </>
   )
 }
